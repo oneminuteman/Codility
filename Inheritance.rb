@@ -5,12 +5,13 @@
 
 class Animal
     def speak
-      # Your code here
+      puts "Animal speaks!"
     end
 end
   
 class Dog < Animal
 # Your code here
+puts "Dog barks!"
 end
 
 # Example usage
